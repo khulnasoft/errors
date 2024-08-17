@@ -21,8 +21,8 @@ import (
 
 	"github.com/cockroachdb/errors/errbase"
 	"github.com/cockroachdb/errors/errorspb"
+	"github.com/cockroachdb/gogoproto/proto"
 	"github.com/cockroachdb/redact"
-	"github.com/gogo/protobuf/proto"
 )
 
 // Is determines whether one of the causes of the given error or any

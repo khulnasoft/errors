@@ -27,7 +27,7 @@ import (
 	"github.com/cockroachdb/errors/errorspb"
 	"github.com/cockroachdb/errors/extgrpc"
 	"github.com/cockroachdb/errors/testutils"
-	"github.com/gogo/protobuf/proto"
+	"github.com/cockroachdb/gogoproto/proto"
 	gogostatus "github.com/gogo/status"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"

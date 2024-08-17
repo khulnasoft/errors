@@ -12,6 +12,7 @@
 // implied. See the License for the specific language governing
 // permissions and limitations under the License.
 
+//go:build !plan9
 // +build !plan9
 
 package errbase_test
@@ -26,7 +27,7 @@ import (
 	"github.com/cockroachdb/errors/errorspb"
 	"github.com/cockroachdb/errors/oserror"
 	"github.com/cockroachdb/errors/testutils"
-	"github.com/gogo/protobuf/types"
+	"github.com/cockroachdb/gogoproto/types"
 )
 
 func TestAdaptErrno(t *testing.T) {

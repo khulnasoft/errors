@@ -20,7 +20,7 @@ import (
 
 	"github.com/cockroachdb/errors/errbase"
 	"github.com/cockroachdb/errors/errorspb"
-	"github.com/gogo/protobuf/proto"
+	"github.com/cockroachdb/gogoproto/proto"
 )
 
 type withHint struct {

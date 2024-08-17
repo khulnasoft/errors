@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/cockroachdb/errors/errorspb"
-	"github.com/gogo/protobuf/proto"
-	"github.com/gogo/protobuf/types"
+	"github.com/cockroachdb/gogoproto/proto"
+	"github.com/cockroachdb/gogoproto/types"
 )
 
 // EncodedError is the type of an encoded (and protobuf-encodable) error.

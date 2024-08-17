@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	"github.com/cockroachdb/errors/errbase"
+	"github.com/cockroachdb/gogoproto/proto"
 	"github.com/cockroachdb/redact"
-	"github.com/gogo/protobuf/proto"
 )
 
 type withTelemetry struct {

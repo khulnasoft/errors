@@ -21,8 +21,8 @@ import (
 
 	"github.com/cockroachdb/errors/errbase"
 	"github.com/cockroachdb/errors/stdstrings"
+	"github.com/cockroachdb/gogoproto/proto"
 	"github.com/cockroachdb/redact"
-	"github.com/gogo/protobuf/proto"
 )
 
 type withIssueLink struct {

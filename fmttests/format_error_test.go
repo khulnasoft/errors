@@ -27,8 +27,8 @@ import (
 	"github.com/cockroachdb/errors/errbase"
 	"github.com/cockroachdb/errors/errutil"
 	"github.com/cockroachdb/errors/testutils"
+	"github.com/cockroachdb/gogoproto/proto"
 	"github.com/cockroachdb/redact"
-	"github.com/gogo/protobuf/proto"
 	pkgErr "github.com/pkg/errors"
 )
 

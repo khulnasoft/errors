@@ -25,7 +25,7 @@ import (
 	"github.com/cockroachdb/errors/errbase"
 	"github.com/cockroachdb/errors/errbase/internal"
 	"github.com/cockroachdb/errors/testutils"
-	"github.com/gogo/protobuf/proto"
+	"github.com/cockroachdb/gogoproto/proto"
 	"github.com/kr/pretty"
 )
 

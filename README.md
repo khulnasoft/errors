@@ -306,7 +306,7 @@ Finally, you may want your new error type to be portable across
 the network.
 
 If your error type is a leaf, and already implements `proto.Message`
-(from [gogoproto](https://github.com/gogo/protobuf)), you are all set
+(from [gogoproto](https://github.com/cockroachdb/gogoproto)), you are all set
 and the errors library will use that automatically. If you do not or
 cannot implement `proto.Message`, or your error type is a wrapper,
 read on.

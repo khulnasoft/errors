@@ -5,9 +5,9 @@ package errorspb
 
 import (
 	fmt "fmt"
-	_ "github.com/gogo/protobuf/gogoproto"
-	proto "github.com/gogo/protobuf/proto"
-	types "github.com/gogo/protobuf/types"
+	_ "github.com/cockroachdb/gogoproto/gogoproto"
+	proto "github.com/cockroachdb/gogoproto/proto"
+	types "github.com/cockroachdb/gogoproto/types"
 	io "io"
 	math "math"
 	math_bits "math/bits"

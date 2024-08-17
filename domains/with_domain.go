@@ -19,8 +19,8 @@ import (
 	"fmt"
 
 	"github.com/cockroachdb/errors/errbase"
+	"github.com/cockroachdb/gogoproto/proto"
 	"github.com/cockroachdb/redact"
-	"github.com/gogo/protobuf/proto"
 )
 
 // withDomain is a wrapper type that adds a domain annotation to an

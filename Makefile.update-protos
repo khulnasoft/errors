@@ -3,8 +3,8 @@
 # Prerequisites:
 #   "protoc" from https://github.com/protocolbuffers/protobuf
 #   go get github.com/cockroachdb/protoc-gen-gogoroach
-#   go get github.com/gogo/protobuf/types
-#   go get github.com/gogo/protobuf/protoc-gen-gogo
+#   go get github.com/cockroachdb/gogoproto/types
+#   go get github.com/cockroachdb/gogoproto/protoc-gen-gogo
 #
 # Note: as of 2021-04-13, we like to use a custom protoc-gen-gogo
 # with additional options, to stabilize the marshalled
@@ -48,9 +48,9 @@ all: $(PROTOS)
 			-I$$GOPATH/src/ \
 			-I$$GOPATH/src/github.com \
 			-I$$GOPATH/src/github.com/cockroachdb/errors \
-			-I$$GOPATH/src/github.com/gogo/protobuf \
-			-I$$GOPATH/src/github.com/gogo/protobuf/protobuf \
-			--gogoroach_out=Mgoogle/protobuf/any.proto=github.com/gogo/protobuf/types,plugins=grpc,import_prefix=:. \
+			-I$$GOPATH/src/github.com/cockroachdb/gogoproto \
+			-I$$GOPATH/src/github.com/cockroachdb/gogoproto/protobuf \
+			--gogoroach_out=Mgoogle/protobuf/any.proto=github.com/cockroachdb/gogoproto/types,plugins=grpc,import_prefix=:. \
 			$$dir/*.proto; \
 	done
 	$(SED) $(SED_INPLACE) -E \
