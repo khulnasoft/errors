@@ -32,7 +32,7 @@ assertmsg oneline
 (1) assertion failure
 Wraps: (2) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func17
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -80,7 +80,7 @@ assertmsg ‹oneline›
 (1) assertion failure
 Wraps: (2) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func17
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -115,7 +115,7 @@ Error types: (1) *assert.withAssertionFailure (2) *withstack.withStack (3) *erru
 (1) assertion failure
 Wraps: (2) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func17
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -176,7 +176,7 @@ Title: "*errutil.leafError: assertmsg ×\nvia *withstack.withStack"
 <path>:<lineno>:
    (github.com/cockroachdb/errors/fmttests.TestDatadriven.func2) 1()
 <path>:<lineno>:
-   (github.com/cockroachdb/errors/fmttests.glob.)...funcNN...
+   (github.com/cockroachdb/errors/fmttests.init)...funcNN...
 
 run
 ctx-canceled oneline twoline
@@ -659,7 +659,7 @@ twoline
 new-style oneline
 (1) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func16
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -706,7 +706,7 @@ new-style ‹oneline›
 new-style ‹oneline›
 (1) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func16
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -740,7 +740,7 @@ Error types: (1) *withstack.withStack (2) *errutil.leafError
 <path>:<lineno>: new-style ×
 (1) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func16
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -799,7 +799,7 @@ Title: "*errutil.leafError: new-style ×\nvia *withstack.withStack"
 <path>:<lineno>:
    (github.com/cockroachdb/errors/fmttests.TestDatadriven.func2) 1()
 <path>:<lineno>:
-   (github.com/cockroachdb/errors/fmttests.glob.)...funcNN...
+   (github.com/cockroachdb/errors/fmttests.init)...funcNN...
 
 run
 newf-attached oneline twoline
@@ -842,7 +842,7 @@ twoline: payload
 new-style oneline
 (1) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func18
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -870,7 +870,7 @@ Wraps: (2) secondary error attachment
   | payload
   | (1) attached stack trace
   |   -- stack trace:
-  |   | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  |   | github.com/cockroachdb/errors/fmttests.init.func18
   |   | <tab><path>:<lineno>
   |   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   |   | <tab><path>:<lineno>
@@ -919,7 +919,7 @@ new-style ‹oneline›
 new-style ‹oneline›
 (1) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func18
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -947,7 +947,7 @@ Wraps: (2) secondary error attachment
   | payload
   | (1) attached stack trace
   |   -- stack trace:
-  |   | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  |   | github.com/cockroachdb/errors/fmttests.init.func18
   |   | <tab><path>:<lineno>
   |   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   |   | <tab><path>:<lineno>
@@ -983,7 +983,7 @@ Error types: (1) *withstack.withStack (2) *secondary.withSecondaryError (3) *err
 <path>:<lineno>: new-style ×
 (1) attached stack trace
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func18
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -1011,7 +1011,7 @@ Wraps: (2) secondary error attachment
   | payload
   | (1) attached stack trace
   |   -- stack trace:
-  |   | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  |   | github.com/cockroachdb/errors/fmttests.init.func18
   |   | <tab><path>:<lineno>
   |   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   |   | <tab><path>:<lineno>
@@ -1074,7 +1074,7 @@ Title: "*errutil.leafError: new-style ×\nvia *withstack.withStack"
 <path>:<lineno>:
    (github.com/cockroachdb/errors/fmttests.TestDatadriven.func2) 1()
 <path>:<lineno>:
-   (github.com/cockroachdb/errors/fmttests.glob.)...funcNN...
+   (github.com/cockroachdb/errors/fmttests.init)...funcNN...
 
 run
 nofmt oneline twoline
@@ -1450,7 +1450,7 @@ twoline
 == %+v
 oneline
 twoline
-github.com/cockroachdb/errors/fmttests.glob...funcNN...
+github.com/cockroachdb/errors/fmttests.init.func9
 <tab><path>:<lineno>
 github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
 <tab><path>:<lineno>
@@ -1487,7 +1487,7 @@ oneline
 (1) oneline
   | twoline
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func9
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -1528,7 +1528,7 @@ Error types: (1) *errors.fundamental
 (1) ‹oneline›
 ‹  | twoline›
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func9
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -1561,7 +1561,7 @@ Error types: (1) *errors.fundamental
 (1) ×
 ×
   -- stack trace:
-  | github.com/cockroachdb/errors/fmttests.glob...funcNN...
+  | github.com/cockroachdb/errors/fmttests.init.func9
   | <tab><path>:<lineno>
   | github.com/cockroachdb/errors/fmttests.TestDatadriven.func2.1
   | <tab><path>:<lineno>
@@ -1616,7 +1616,7 @@ Title: "*errors.fundamental: ×"
 <path>:<lineno>:
    (github.com/cockroachdb/errors/fmttests.TestDatadriven.func2) 1()
 <path>:<lineno>:
-   (github.com/cockroachdb/errors/fmttests.glob.)...funcNN...
+   (github.com/cockroachdb/errors/fmttests.init)...funcNN...
 
 run
 safefmt oneline twoline
